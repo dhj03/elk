@@ -1,0 +1,774 @@
+#Requires AutoHotkey >=2.0
+
+SendMode("Event")
+SetWorkingDir(A_ScriptDir)
+#SingleInstance force
+#HotString c * ?
+
+#InputLevel 2
+
+RAlt::
+{
+global
+return
+}
+
+>!;::
+{
+global
+    KeyWait("RAlt")
+    Hotstring("Reset")
+return
+}
+
+>!Space::
+{
+global
+    KeyWait("RAlt")
+    Send("​")
+return
+}
+
+>!A::
+{
+global
+    KeyWait("RAlt")
+    Send("́")
+return
+}
+
+>!<!A::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̗")
+return
+}
+
+>^A::
+{
+global
+    KeyWait("RCtrl")
+    Send("̋")
+return
+}
+
+>!G::
+{
+global
+    KeyWait("RAlt")
+    Send("̀")
+return
+}
+
+>!<!G::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̖")
+return
+}
+
+>^G::
+{
+global
+    KeyWait("RCtrl")
+    Send("̏")
+return
+}
+
+>!F::
+{
+global
+    KeyWait("RAlt")
+    Send("̂")
+return
+}
+
+>!<!F::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̭")
+return
+}
+
+>!V::
+{
+global
+    KeyWait("RAlt")
+    Send("̌")
+return
+}
+
+>!<!V::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̬")
+return
+}
+
+>!M::
+{
+global
+    KeyWait("RAlt")
+    Send("̄")
+return
+}
+
+>!<!M::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̱")
+return
+}
+
+>^M::
+{
+global
+    KeyWait("RCtrl")
+    Send("̅")
+return
+}
+
+>^<!M::
+{
+global
+    KeyWait("RCtrl")
+    KeyWait("LAlt")
+    Send("̲")
+return
+}
+
+>!U::
+{
+global
+    KeyWait("RAlt")
+    Send("̆")
+return
+}
+
+>!<!U::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̮")
+return
+}
+
+>!I::
+{
+global
+    KeyWait("RAlt")
+    Send("̑")
+return
+}
+
+>!<!I::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̯")
+return
+}
+
+>!E::
+{
+global
+    KeyWait("RAlt")
+    Send("̈")
+return
+}
+
+>!<!E::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̤")
+return
+}
+
+>!D::
+{
+global
+    KeyWait("RAlt")
+    Send("̇")
+return
+}
+
+>!<!D::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̣")
+return
+}
+
+>!R::
+{
+global
+    KeyWait("RAlt")
+    Send("̊")
+return
+}
+
+>!<!R::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̥")
+return
+}
+
+>!N::
+{
+global
+    KeyWait("RAlt")
+    Send("̃")
+return
+}
+
+>!<!N::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̰")
+return
+}
+
+>!O::
+{
+global
+    KeyWait("RAlt")
+    Send("̨")
+return
+}
+
+>!J::
+{
+global
+    KeyWait("RAlt")
+    Send("̛")
+return
+}
+
+>!<!J::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̉")
+return
+}
+
+>!Z::
+{
+global
+    KeyWait("RAlt")
+    Send("̧")
+return
+}
+
+>!S::
+{
+global
+    KeyWait("RAlt")
+    Send("")
+return
+}
+
+>!P::
+{
+global
+    KeyWait("RAlt")
+    Send("")
+return
+}
+
+>!X::
+{
+global
+    KeyWait("RAlt")
+    Send("̽")
+return
+}
+
+>!<!X::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("͓")
+return
+}
+
+>!T::
+{
+global
+    KeyWait("RAlt")
+    Send("͜")
+return
+}
+
+>!<!T::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("͡")
+return
+}
+
+>!L::
+{
+global
+    KeyWait("RAlt")
+    Send("̍")
+return
+}
+
+>!<!L::
+{
+global
+    KeyWait("RAlt")
+    KeyWait("LAlt")
+    Send("̩")
+return
+}
+
+>^L::
+{
+global
+    KeyWait("RCtrl")
+    Send("̎")
+return
+}
+
+>^<!L::
+{
+global
+    KeyWait("RCtrl")
+    KeyWait("LAlt")
+    Send("͈")
+return
+}
+
+>!.::
+{
+global
+    KeyWait("RAlt")
+    Send("·")
+return
+}
+
+#InputLevel 1
+
+::Á::Á
+::á::á
+::É::É
+::é::é
+::Í::Í
+::í::í
+::Ó::Ó
+::ó::ó
+::Ú::Ú
+::ú::ú
+::Ẃ::Ẃ
+::ẃ::ẃ
+::Ý::Ý
+::ý::ý
+::Ć::Ć
+::ć::ć
+::Ǵ::Ǵ
+::ǵ::ǵ
+::Ḱ::Ḱ
+::ḱ::ḱ
+::Ĺ::Ĺ
+::ĺ::ĺ
+::Ń::Ń
+::ń::ń
+::Ŕ::Ŕ
+::ŕ::ŕ
+::Ś::Ś
+::ś::ś
+::Ź::Ź
+::ź::ź
+
+::Ő::Ő
+::ő::ő
+::Ű::Ű
+::ű::ű
+
+::À::À
+::à::à
+::È::È
+::è::è
+::Ì::Ì
+::ì::ì
+::Ò::Ò
+::ò::ò
+::Ù::Ù
+::ù::ù
+::Ẁ::Ẁ
+::ẁ::ẁ
+::Ỳ::Ỳ
+::ỳ::ỳ
+
+::Ȁ::Ȁ
+::ȁ::ȁ
+::Ȅ::Ȅ
+::ȅ::ȅ
+::Ȉ::Ȉ
+::ȉ::ȉ
+::Ȍ::Ȍ
+::ȍ::ȍ
+::Ȕ::Ȕ
+::ȕ::ȕ
+::Ȑ::Ȑ
+::ȑ::ȑ
+
+::Â::Â
+::â::â
+::Ê::Ê
+::ê::ê
+::Î::Î
+::î::î
+::Ô::Ô
+::ô::ô
+::Û::Û
+::û::û
+::Ŵ::Ŵ
+::ŵ::ŵ
+::Ŷ::Ŷ
+::ŷ::ŷ
+::Ĉ::Ĉ
+::ĉ::ĉ
+::Ĝ::Ĝ
+::ĝ::ĝ
+::Ĥ::Ĥ
+::ĥ::ĥ
+::Ĵ::Ĵ
+::ĵ::ĵ
+::Ŝ::Ŝ
+::ŝ::ŝ
+::Ẑ::Ẑ
+::ẑ::ẑ
+
+::Ǎ::Ǎ
+::ǎ::ǎ
+::Ě::Ě
+::ě::ě
+::Ǐ::Ǐ
+::ǐ::ǐ
+::Ǒ::Ǒ
+::ǒ::ǒ
+::Ǔ::Ǔ
+::ǔ::ǔ
+::Č::Č
+::č::č
+::Ď::Ď
+::ď::ď
+::Ǧ::Ǧ
+::ǧ::ǧ
+::Ľ::Ľ
+::ľ::ľ
+::Ň::Ň
+::ň::ň
+::Ř::Ř
+::ř::ř
+::Š::Š
+::š::š
+::Ť::Ť
+::ť::ť
+::Ž::Ž
+::ž::ž
+
+::Ā::Ā
+::ā::ā
+::Ē::Ē
+::ē::ē
+::Ī::Ī
+::ī::ī
+::Ō::Ō
+::ō::ō
+::Ū::Ū
+::ū::ū
+::Ȳ::Ȳ
+::ȳ::ȳ
+
+::Ă::Ă
+::ă::ă
+::Ĕ::Ĕ
+::ĕ::ĕ
+::Ĭ::Ĭ
+::ĭ::ĭ
+::Ŏ::Ŏ
+::ŏ::ŏ
+::Ŭ::Ŭ
+::ŭ::ŭ
+::Ğ::Ğ
+::ğ::ğ
+
+::Ȃ::Ȃ
+::ȃ::ȃ
+::Ȇ::Ȇ
+::ȇ::ȇ
+::Ȋ::Ȋ
+::ȋ::ȋ
+::Ȏ::Ȏ
+::ȏ::ȏ
+::Ȗ::Ȗ
+::ȗ::ȗ
+
+::Ä::Ä
+::ä::ä
+::Ë::Ë
+::ë::ë
+::Ï::Ï
+::ï::ï
+::Ö::Ö
+::ö::ö
+:x:Ü::Send("Ü")
+:x:ü::Send("ü")
+::Ẅ::Ẅ
+::ẅ::ẅ
+::Ÿ::Ÿ
+::ÿ::ÿ
+
+::Ȧ::Ȧ
+::ȧ::ȧ
+::Ė::Ė
+::ė::ė
+::İ::İ
+::Ȯ::Ȯ
+::ȯ::ȯ
+::Ẇ::Ẇ
+::ẇ::ẇ
+::Ẏ::Ẏ
+::ẏ::ẏ
+::Ċ::Ċ
+::ċ::ċ
+::Ḋ::Ḋ
+::ḋ::ḋ
+::Ġ::Ġ
+::ġ::ġ
+::Ṅ::Ṅ
+::ṅ::ṅ
+::Ṡ::Ṡ
+::ṡ::ṡ
+::Ṫ::Ṫ
+::ṫ::ṫ
+::Ż::Ż
+::ż::ż
+
+::Ạ::Ạ
+::ạ::ạ
+::Ẹ::Ẹ
+::ẹ::ẹ
+::Ị::Ị
+::ị::ị
+::Ọ::Ọ
+::ọ::ọ
+::Ụ::Ụ
+::ụ::ụ
+::Ẉ::Ẉ
+::ẉ::ẉ
+::Ỵ::Ỵ
+::ỵ::ỵ
+::Ḷ::Ḷ
+::ḷ::ḷ
+::Ṛ::Ṛ
+::ṛ::ṛ
+::Ḅ::Ḅ
+::ḅ::ḅ
+::Ḍ::Ḍ
+::ḍ::ḍ
+::Ḥ::Ḥ
+::ḥ::ḥ
+::Ṣ::Ṣ
+::ṣ::ṣ
+::Ẓ::Ẓ
+::ẓ::ẓ
+
+:x:Å::Send("Å")
+:x:å::Send("å")
+::Ů::Ů
+::ů::ů
+::ẘ::ẘ
+::ẙ::ẙ
+
+::Ã::Ã
+::ã::ã
+::Ẽ::Ẽ
+::ẽ::ẽ
+::Ĩ::Ĩ
+::ĩ::ĩ
+::Õ::Õ
+::õ::õ
+::Ũ::Ũ
+::ũ::ũ
+::Ỹ::Ỹ
+::ỹ::ỹ
+::Ñ::Ñ
+::ñ::ñ
+
+::Ą::Ą
+::ą::ą
+::Ę::Ę
+::ę::ę
+::Į::Į
+::į::į
+::Ǫ::Ǫ
+::ǫ::ǫ
+::Ų::Ų
+::ų::ų
+
+::Ơ::Ơ
+::ơ::ơ
+::Ư::Ư
+::ư::ư
+
+::Ả::Ả
+::ả::ả
+::Ẻ::Ẻ
+::ẻ::ẻ
+::Ỉ::Ỉ
+::ỉ::ỉ
+::Ỏ::Ỏ
+::ỏ::ỏ
+::Ủ::Ủ
+::ủ::ủ
+::Ỷ::Ỷ
+::ỷ::ỷ
+
+::Ȩ::Ȩ
+::ȩ::ȩ
+::Ç::Ç
+::ç::ç
+::Ģ::Ģ
+::ģ::ģ
+::Ţ::Ţ
+::ţ::ţ
+::Ḑ::Ḑ
+::ḑ::ḑ
+::Ķ::Ķ
+::ķ::ķ
+::Ļ::Ļ
+::ļ::ļ
+::Ņ::Ņ
+::ņ::ņ
+::Ş::Ş
+::ş::ş
+
+:x:AE::Send("Æ")
+:x:ae::Send("æ")
+::OE::Œ
+::oe::œ
+::H::Ħ
+::h::ħ
+::i::ı
+::IJ::Ĳ
+::ij::ĳ
+::K::ĸ
+::L::Ł
+::l::ł
+::L.::Ŀ
+::l.::ŀ
+::NG::Ŋ
+::ng::ŋ
+::'n::ŉ
+:x:O::Send("Ø")
+:x:o::Send("ø")
+::s::ſ
+::SS::§
+::ss::§
+::SZ::ẞ
+::sz::ß
+::DZ::Ƶ
+::dz::ƶ
+::T::Ŧ
+::t::ŧ
+::D::Đ
+::d::đ
+::TH::Þ
+::th::þ
+::DH::Ð
+::dh::ð
+::SH::Ʃ
+::sh::ʃ
+::ZH::Ʒ
+::zh::ʒ
+
+::a::ᵃ
+::b::ᵇ
+::c::ᶜ
+::d::ᵈ
+::e::ᵉ
+::f::ᶠ
+::g::ᵍ
+::h::ʰ
+::i::ⁱ
+::j::ʲ
+::k::ᵏ
+::l::ˡ
+::m::ᵐ
+::n::ⁿ
+::o::ᵒ
+::p::ᵖ
+::r::ʳ
+::s::ˢ
+::t::ᵗ
+::u::ᵘ
+::v::ᵛ
+::w::ʷ
+::x::ˣ
+::y::ʸ
+::z::ᶻ
+::0::⁰
+::1::¹
+::2::²
+::3::³
+::4::⁴
+::5::⁵
+::6::⁶
+::7::⁷
+::8::⁸
+::9::⁹
+::+::⁺
+::-::⁻
+::=::⁼
+::(::⁽
+::)::⁾
+
+#InputLevel 0
+
+::Ǻ::Ǻ
+::ǻ::ǻ
+::Ǽ::Ǽ
+::ǽ::ǽ
+::Ǣ::Ǣ
+::ǣ::ǣ
+::Ǿ::Ǿ
+::ǿ::ǿ
+
+::Ǖ::Ǖ
+::ǖ::ǖ
+::Ǘ::Ǘ
+::ǘ::ǘ
+::Ǚ::Ǚ
+::ǚ::ǚ
+::Ǜ::Ǜ
+::ǜ::ǜ
