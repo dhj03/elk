@@ -14,11 +14,11 @@ This script supports all characters in the following Unicode blocks:
 * Modifier Tone Letters
 * Combining Diacritical Marks
 * Combining Diacritical Marks Extended
-* Combining Diacritical Marks Supplement
+* Combining Diacritical Marks Supplement\
 alongside some characters in other blocks also used in IPA.
 
 ## Installation
 * Install [AutoHotKey](https://www.autohotkey.com/), version 2.0 or newer.
 * Place the `.ahk` file (the script) in your start-up folder.
-* Run the script.
+* Run the script.\
 The script should now automatically run once every time your machine boots.
