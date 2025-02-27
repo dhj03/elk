@@ -2196,6 +2196,11 @@ return
 :x:⁅bl:o⁆::Send("ꬽ")
 :x:⁅bl:o/⁆::Send("ꬾ")
 
+:x:⁅ds:b⁆::Send("―")
+:x:⁅ds:f⁆::Send("‒")
+:x:⁅ds:m⁆::Send("—")
+:x:⁅ds:n⁆::Send("–")
+
 :x:⁅g:A⁆::Send("Α")
 :x:⁅g:a⁆::Send("α")
 :x:⁅g:B⁆::Send("Β")
@@ -2249,6 +2254,8 @@ return
 :x:⁅g:ph⁆::Send("φ")
 :x:⁅g:CH⁆::Send("Χ")
 :x:⁅g:ch⁆::Send("χ")
+:x:⁅g:KH⁆::Send("Χ")
+:x:⁅g:kh⁆::Send("χ")
 :x:⁅g:PS⁆::Send("Ψ")
 :x:⁅g:ps⁆::Send("ψ")
 :x:⁅g:OO⁆::Send("Ω")
