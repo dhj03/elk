@@ -19,7 +19,7 @@ It also supports some characters in other blocks also used in the IPA.
 The script should now automatically run every time your machine boots.
 
 ## Usage
-All characters in this script are typed with hotkeys and hotstrings involving `RAlt` (the right `Alt` key) which on some keyboards is shown as `AltGr`. Please note that this script will override the original functions of this key, and that hotstrings are only able to function when every component character has been typed in order and registered by AHK.
+All characters in this script are typed with hotkeys and hotstrings involving `RAlt` (the right `Alt` key) which on some keyboards is shown as `AltGr`. Please note that this script will override the original functions of this key, and that hotstrings are only able to function when every component character has been typed consecutively and therefore registered by AHK.
 
 ### Hotkeys
 Hotkeys are composed of `RAlt`, optionally `LAlt`, and another key. They type the most common diacritics and a select few common characters, and are the easiest to type.
