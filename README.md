@@ -28,14 +28,18 @@ Diacritics are typed in the form of combining characters, and can be appended to
 
 The `LAlt` key is used similarly to how the `Shift` key is used normally, usually causing the diacritic to be placed below the preceding letter instead of above it, or occasionally vice-versa. For instance, `RAlt` + `LAlt` + `A` yields an acute below. The `Shift` key is not used in any hotkeys as `Alt` + `Shift` triggers a keyboard switch on Windows.
 
-Thanks to AHK's hotstrings, letters with diacritics are automatically converted to their pre-composed form as specified in Unicode, if it exists. This may be prevented by typing `RAlt` + `;` (before the hotstring is complete), which resets the hotstring register.
-
 A number of non-diacritics may also be typed with hotkeys, such as the interpunct with `RAlt` + `.` or the zero-width space with `RAlt` + ` `.
+
+### Hotstrings
+
+Thanks to AHK's hotstrings, letters with diacritics are automatically converted to their pre-composed form as specified in Unicode, if it exists. This may be prevented by typing `RAlt` + `;` (before the hotstring is complete), which resets the hotstring register.
 
 All other characters are typed using the hotstring brackets `⁅` and `⁆`, typed with `Alt` + `[` and `Alt` + `]` respectively, in the form `⁅hotstring⁆`.
 
 ### Modifiers
-(TODO)
+Modifiers are used in hotstrings to represent a kind of visual transformation, most frequently appearing in phonetic characters. Most modifiers are either only prepended or only appended to the character being modified, but in some cases either may apply with different effects depending on position.
+
+For instance, the small modifier `-` is prepended (e.g. `⁅-H⁆` -> `ʜ`) while the bar modifier `-` is appended (e.g. ⁅H-⁆ -> `Ħ`).
 
 ### Namespaces
 (TODO)
