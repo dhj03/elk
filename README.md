@@ -43,7 +43,7 @@ When a combining diacritic is used, a space is added to prevent automatic pre-co
 ### Modifiers
 Modifiers are used in hotstrings to represent a kind of visual transformation, most frequently appearing in phonetic characters. Most modifiers are either only prepended or only appended to the character being modified, but in some cases either may apply with different effects depending on position.
 
-For instance, the small modifier `-` is prepended (e.g. `⁅-H⁆` -> `ʜ`) while the bar modifier `-` is appended (e.g. ⁅H-⁆ -> `Ħ`).
+For instance, the small modifier `-` is prepended (e.g. `⁅-H⁆` -> `ʜ`) while the bar modifier `-` is appended (e.g. `⁅H-⁆` -> `Ħ`).
 
 Modifiers may be escaped for their character values with a backtick, but in practice this has not been necessary yet.
 
