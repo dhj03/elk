@@ -36,10 +36,19 @@ Thanks to AHK's hotstrings, letters with diacritics are automatically converted 
 
 All other characters are typed using the hotstring brackets `⁅` and `⁆`, typed with `Alt` + `[` and `Alt` + `]` respectively, in the form `⁅hotstring⁆`.
 
+Hotstrings using brackets are never layered; no hotstring will contain more than one of each bracket. In cases where a character involves other characters that are also typed with hotstring brackets, the inner brackets are omitted.
+
+Where a combining diacritic is used, a space is added to prevent automatic pre-composition. Where a modifier (described below) does not apply to every part of the hotstring, spaces are also used to separate each part.
+
 ### Modifiers
 Modifiers are used in hotstrings to represent a kind of visual transformation, most frequently appearing in phonetic characters. Most modifiers are either only prepended or only appended to the character being modified, but in some cases either may apply with different effects depending on position.
 
 For instance, the small modifier `-` is prepended (e.g. `⁅-H⁆` -> `ʜ`) while the bar modifier `-` is appended (e.g. ⁅H-⁆ -> `Ħ`).
 
+Modifiers may be escaped for their character values with a backtick, but in practice this has not been necessary yet.
+
 ### Namespaces
-(TODO)
+Namespaces are used to categorise characters that cannot be described with modifiers alone, and often use modifiers differently. Their syntax is `⁅namespace:hotstring⁆`, such as in `⁅rn:X⁆` which yields `Ⅹ` (the Roman numeral for 10).
+
+## Further Reading
+This document does not list all hotkeys and hotstrings in the script, as the `.ahk` file is self-explanatory. If you to would like to know if a certain diacritic or special character is supported and how it is typed if so, please read the `.ahk` file; the script documents itself.
