@@ -34,7 +34,7 @@ A number of non-diacritics may also be typed with hotkeys, such as the interpunc
 
 Thanks to AHK's hotstrings, letters with diacritics are automatically converted to their pre-composed form as specified in Unicode, if it exists. This may be prevented by typing `RAlt` + `;` (before the hotstring is complete), which resets the hotstring register.
 
-All other characters are typed using the hotstring brackets `⁅` and `⁆`, typed with `Alt` + `[` and `Alt` + `]` respectively, in the form `⁅hotstring⁆`.
+All other characters are typed using the hotstring brackets `⁅` and `⁆`, typed with `RAlt` + `[` and `RAlt` + `]` respectively, in the form `⁅hotstring⁆`.
 
 Hotstrings using brackets are never layered; no hotstring will contain more than one of each bracket. In cases where a character involves other characters that are also typed with hotstring brackets, the inner brackets are omitted. This makes it easier to type hotstrings, but it also means that hotstrings using brackets cannot trigger other hotstrings using brackets.
 
