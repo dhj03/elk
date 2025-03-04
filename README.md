@@ -22,9 +22,9 @@ The script should now automatically run every time your machine boots.
 All characters in this script are typed with hotkeys and hotstrings involving `RAlt` (the right `Alt` key) which on some keyboards is shown as `AltGr`. Please note that this script will override the original functions of this key, and that hotstrings are only able to function when every component character has been typed consecutively and therefore registered by AHK.
 
 ### Hotkeys
-Hotkeys are composed of `RAlt`, optionally `LAlt`, and a specific key. They type the most common diacritics and a select few common characters, and are the easiest to type.
+Hotkeys are composed of `RAlt`, optionally `LAlt`, and a key. They type the most common diacritics and a select few common characters, and are the easiest to type.
 
-Diacritics are typed in the form of combining characters, and can be appended to base letters to form new letters. The specific key of a diacritic may depend on its shape, name, or relative position to a related diacritic on the QWERTY layout. For instance, `RAlt` + `U` yields a  breve, `RAlt` + `A` yields an acute, and `RAlt` + `Q` yields a double acute as `Q` is above `A`.
+Diacritics are typed in the form of combining characters, and can be appended to base letters to form new letters. The key of a diacritic may depend on its shape, name, or relative position to the key of a related diacritic on the QWERTY layout. For instance, `RAlt` + `U` yields a  breve, `RAlt` + `A` yields an acute, and `RAlt` + `Q` yields a double acute as `Q` is above `A`.
 
 The `LAlt` key is used similarly to how the `Shift` key is used normally, usually causing the diacritic to be placed below the preceding letter instead of above it, or occasionally vice-versa. For instance, `RAlt` + `LAlt` + `A` yields an acute below. The `Shift` key is not used in any hotkeys as `Alt` + `Shift` triggers a keyboard switch on Windows.
 
