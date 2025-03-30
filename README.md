@@ -30,6 +30,8 @@ The `LAlt` key is used similarly to how the `Shift` key is used normally, usuall
 
 A number of non-diacritics may also be typed with hotkeys, such as the interpunct with `RAlt` + `.` or the zero-width space with `RAlt` + ` `.
 
+A list of all hotkeys can be found [here](Hotkeys.md)
+
 ### Hotstrings
 
 Thanks to AHK's hotstrings, letters with diacritics are automatically converted to their pre-composed form as specified in Unicode, if it exists. This may be prevented by typing `RAlt` + `;` (before the hotstring is complete), which resets the hotstring register.
@@ -47,8 +49,9 @@ For instance, the small modifier `-` is prepended (e.g. `⁅-H⁆` -> `ʜ`) whil
 
 Modifiers may be escaped for their character values with a backtick, but in practice this has not been necessary yet.
 
+A list of all modifiers can be found [here](Modifiers.md)
+
 ### Namespaces
 Namespaces are used to categorise characters that cannot be described with modifiers alone, and often use modifiers differently. Their syntax is `⁅namespace:hotstring⁆`, such as in `⁅rn:X⁆` which yields `Ⅹ` (the Roman numeral for 10).
 
-## Further Reading
-This document does not list all hotkeys and hotstrings in the script, as the `.ahk` file is self-explanatory. If you to would like to know if a certain diacritic or special character is supported and how it is typed if so, please read the `.ahk` file; the script documents itself.
+A list of all namespaces can be found [here](Namespaces.md)
