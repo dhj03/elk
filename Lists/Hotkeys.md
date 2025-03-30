@@ -16,3 +16,8 @@
 | **M** | **M**acron | ◌̄ | ◌̱ |
 | **N** | Tilde | ◌̃ | ◌̰ | Tilde looks like N |
 | **O** | **O**gonek | ◌̨ | ◌᷎ | Ogonek Above doesn't render in most fonts |
+| **P** | Double Line | ◌̎ | ◌͈ | P is above L in QWERTY |
+| **Q** | Double Acute | ◌̋ | | Q is above A in QWERTY |
+| **R** | **R**ing | ◌̊ | ◌̥ |
+| **S** | Short **S**troke / Short **S**olidus | ◌̵ | ◌̷ |
+| **T** | Double Grave | ◌̏ | | T is above G in QWERTY |

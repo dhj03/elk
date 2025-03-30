@@ -71,7 +71,7 @@ global
 return
 }
 
->!Y::
+>!T::
 {
 global
     KeyWait("RAlt")
