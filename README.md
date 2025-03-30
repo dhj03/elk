@@ -30,7 +30,7 @@ The `LAlt` key is used similarly to how the `Shift` key is used normally, usuall
 
 A number of non-diacritics may also be typed with hotkeys, such as the interpunct with `RAlt` + `.` or the zero-width space with `RAlt` + ` `.
 
-A list of all hotkeys can be found [here](Hotkeys.md)
+A list of all hotkeys can be found [here](Lists/Hotkeys.md)
 
 ### Hotstrings
 
@@ -49,9 +49,9 @@ For instance, the small modifier `-` is prepended (e.g. `⁅-H⁆` -> `ʜ`) whil
 
 Modifiers may be escaped for their character values with a backtick, but in practice this has not been necessary yet.
 
-A list of all modifiers can be found [here](Modifiers.md)
+A list of all modifiers can be found [here](Lists/Modifiers.md)
 
 ### Namespaces
 Namespaces are used to categorise characters that cannot be described with modifiers alone, and often use modifiers differently. Their syntax is `⁅namespace:hotstring⁆`, such as in `⁅rn:X⁆` which yields `Ⅹ` (the Roman numeral for 10).
 
-A list of all namespaces can be found [here](Namespaces.md)
+A list of all namespaces can be found [here](Lists/Namespaces.md)
