@@ -4,13 +4,13 @@
 | Key | Description | `RAlt` + Key | `RAlt` + `LAlt` + Key | Notes |
 | :---: | :---: | :---: | :---: | :---: |
 | **A** | **A**cute | ◌́ | ◌̗ |
-| **B** | (N/A) | Middle keys are difficult to reach |
+| **B** | (N/A) | | | Middle keys are difficult to reach |
 | **C** | **C**omma / Horn | ◌̦ | ◌̛ |
 | **D** | **D**ot | ◌̇ | ◌̣ |
 | **E** | Diaeresis / Umlaut | ◌̈ | ◌̤ | E is above D in QWERTY |
 | **F** | Circum**f**lex | ◌̂ | ◌̭ |
 | **G** | **G**rave | ◌̀ | ◌̖ |
-| **H** | (N/A) | Middle keys are difficult to reach |
+| **H** | (N/A) | | | Middle keys are difficult to reach |
 | **I** | **I**nverted Breve | ◌̑ | ◌̯ |
 | **J** | Palatal Hook / Retroflex Hook | ◌̡ | ◌̢ | Palatal Hook looks like J |
 | **K** | Overline / Low Line | ◌̅ | ◌̲ | K is above M in QWERTY |
@@ -27,5 +27,5 @@
 | **V** | Caron | ◌̌ | ◌̬ | Caron looks like V |
 | **W** | Long Stroke / Long Solidus | ◌̶ | ◌̸ | W is above S in QWERTY |
 | **X** | **X** | ◌̽ | ◌͓ |
-| **Y** | (N/A) | Middle keys are difficult to reach |
+| **Y** | (N/A) | | | Middle keys are difficult to reach |
 | **Z** | Cedilla / Hook Above | ◌̧ | ◌̉ | Cedilla comes from cursive Z |
