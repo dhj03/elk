@@ -29,3 +29,12 @@
 | **X** | **X** | ◌̽ | ◌͓ |
 | **Y** | (N/A) | | | Middle keys are difficult to reach |
 | **Z** | Cedilla / Hook Above | ◌̧ | ◌̉ | Cedilla comes from cursive Z |
+
+### Other Characters
+| Key | Description | `RAlt` + Key |
+| :---: | :---: | :---: |
+| **Semicolon** | Reset Hotstring | (N/A)​ |
+| **Space** | Zero Width Space | ​ |
+| **Full Stop** | Interpunct | · |
+| **Left Square Bracket** | Begin Hotstring | ⁅ |
+| **Right Square Bracket** | End Hotstring | ⁆ |
