@@ -35,7 +35,7 @@
 | **.** | Descender | ⁅n.⁆ | ꞑ |
 | **?** | Turn (180°) | ⁅r?⁆ | ɹ |
 | **!** | Reverse | ⁅e!⁆ | ɘ |
-| **\|** | Extend / Stretch | ⁅c|⁆ | ʗ |
+| **\|** | Extend / Stretch | ⁅c\|⁆ | ʗ |
 | **<** | Rotate 90° Anti-clockwise | ⁅c?<⁆ | ᴒ |
 | **>** | Rotate 90° Clockwise | ⁅c>⁆ | ᴒ |
 | **#** | Remove Fragment | ⁅?#⁆ | ʔ |
