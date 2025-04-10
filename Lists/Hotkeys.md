@@ -33,8 +33,8 @@
 ### Other Characters
 | Key | Description | `RAlt` + Key |
 | :---: | :---: | :---: |
-| **Semicolon** | Reset Hotstring | (N/A)​ |
-| **Space** | Zero Width Space | ​ |
-| **Full Stop** | Interpunct | · |
-| **Left Square Bracket** | Begin Hotstring | ⁅ |
-| **Right Square Bracket** | End Hotstring | ⁆ |
+| **;** | Reset Hotstring | (N/A)​ |
+| (Space) | Zero Width Space | ​ |
+| **.** | Interpunct | · |
+| **[** | Begin Hotstring | ⁅ |
+| **]** | End Hotstring | ⁆ |
