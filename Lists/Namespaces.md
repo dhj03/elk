@@ -6,7 +6,7 @@
 | **BL** | Blackletter | ⁅bl:e⁆ | ꬲ |
 | **DS** | Dash | ⁅ds:m⁆ | — |
 | **G** | Greek | ⁅g:G⁆ | Γ |
-| **I** | Insular | ⁅i:T⁆ | Ꞇ |
+| **I** | Insular Script | ⁅i:T⁆ | Ꞇ |
 | **MA** | Mayan | ⁅ma:+4⁆ | Ꜭ |
 | **MS** | Middle Scots | ⁅ms:S⁆ | Ꟗ |
 | **MW** | Middle Welsh | ⁅mw:LL⁆ | Ỻ |
