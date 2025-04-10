@@ -5,7 +5,7 @@
 | **ANG** | Anglicana | ⁅ang:W⁆ | Ꟃ |
 | **BL** | Blackletter | ⁅bl:e⁆ | ꬲ |
 | **DS** | Dash | ⁅ds:m⁆ | — |
-| **G** | Greek | ⁅g:G⁆ | Γ |
+| **G** | Greek | ⁅g:PS⁆ | Ψ |
 | **I** | Insular Script | ⁅i:T⁆ | Ꞇ |
 | **MA** | Mayan | ⁅ma:+4⁆ | Ꜭ |
 | **MS** | Middle Scots | ⁅ms:S⁆ | Ꟗ |
