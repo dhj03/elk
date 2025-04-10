@@ -3,6 +3,7 @@
 ### Prepended Modifiers
 | Modifier | Description | Sample Input | Sample Output |
 | :---: | :---: | :---: | :---: |
+| **,** | Flourish | ⁅,B⁆ | Ꞗ |
 | **`** | Variant | ⁅`e⁆ | ɛ |
 | **+** | Capital | ⁅+m?⁆ | Ɯ |
 | **-** | Small | ⁅-H⁆ | ʜ |
@@ -15,7 +16,6 @@
 | **=** | Visual Equivalent | ⁅='⁆ | ′ |
 | **~** | Modifier | ⁅~'⁆ | ʹ |
 | **%** | Small Modifier | ⁅%T⁆ | ˕ |
-| **,** | Flourish | ⁅,B⁆ | Ꞗ |
 
 ### Appended Modifiers
 | Modifier | Description | Sample Input | Sample Output |
