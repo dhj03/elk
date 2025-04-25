@@ -16,6 +16,7 @@
 | **=** | Visual Equivalent | ⁅='⁆ | ′ |
 | **~** | Modifier | ⁅~'⁆ | ʹ |
 | **%** | Small Modifier | ⁅%T⁆ | ˕ |
+| **$** | Currency | ⁅$E⁆ | € |
 
 ### Appended Modifiers
 | Modifier | Description | Sample Input | Sample Output |
