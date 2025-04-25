@@ -24,9 +24,7 @@
 | **·** | Middle Dot | ⁅O·⁆ | ʘ |
 | **@** | Loop | ⁅O@⁆ | Ꝍ |
 | **~** | Middle Tilde | ⁅n~⁆ | ᵰ |
-| **/** | Diagonal Stroke | ⁅O/⁆ | Ø |
-| **//** | Oblique Stroke | ⁅K//⁆ | Ꞣ |
-| **-** | Bar / Stroke | ⁅D-⁆ | Đ |
+| **-** | High Stroke | ⁅L-⁆ | Ꝉ |
 | **=** | Double Bar | ⁅L=⁆ | Ⱡ |
 | **_** | Stroke Through Descender | ⁅TH_⁆ | Ꝧ |
 | **'** | Hook | ⁅n'⁆ | ɲ |
