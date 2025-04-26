@@ -126,7 +126,7 @@ return
 global
     KeyWait("RAlt")
     KeyWait("LAlt")
-    Send("̷")
+    Send("̶")
 return
 }
 
@@ -134,7 +134,7 @@ return
 {
 global
     KeyWait("RAlt")
-    Send("̶")
+    Send("̷")
 return
 }
 

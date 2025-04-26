@@ -21,11 +21,11 @@
 | **P** | Double Line | ◌̎ | ◌͈ | P is above L in QWERTY |
 | **Q** | Double Acute | ◌̋ | | Q is above A in QWERTY |
 | **R** | **R**ing | ◌̊ | ◌̥ |
-| **S** | Short **S**troke / Short **S**olidus | ◌̵ | ◌̷ |
+| **S** | **S**troke | ◌̵ | ◌̶ |
 | **T** | Double Grave | ◌̏ | | T is above G in QWERTY |
 | **U** | Breve | ◌̆ | ◌̮ | Breve looks like U |
 | **V** | Caron | ◌̌ | ◌̬ | Caron looks like V |
-| **W** | Long Stroke / Long Solidus | ◌̶ | ◌̸ | W is above S in QWERTY |
+| **W** | Solidus | ◌̷ | ◌̸ | W is above S in QWERTY |
 | **X** | **X** | ◌̽ | ◌͓ |
 | **Y** | (N/A) | | | Middle keys are difficult to reach |
 | **Z** | Cedilla / Hook Above | ◌̧ | ◌̉ | Cedilla comes from cursive Z |
