@@ -947,8 +947,6 @@ return
 :x:ʕ̵::Send("ʢ")
 :x:ʖ̵::Send("ƾ")
 
-:x:D̶::Send("Ꟈ")
-:x:d̶::Send("ꟈ")
 :x:O̶::Send("Ꝋ")
 :x:o̶::Send("ꝋ")
 
@@ -960,6 +958,8 @@ return
 :x:l̷::Send("ł")
 :x:N̷::Send("Ꞥ")
 :x:n̷::Send("ꞥ")
+:x:O̷::Send("Ø")
+:x:o̷::Send("ø")
 :x:R̷::Send("Ꞧ")
 :x:r̷::Send("ꞧ")
 :x:S̷::Send("Ꞩ")
@@ -971,12 +971,14 @@ return
 :x:C̸::Send("Ȼ")
 :x:c̸::Send("ȼ")
 :x:ɔ̸::Send("ꬿ")
+:x:E̸::Send("Ɇ")
+:x:e̸::Send("ɇ")
 :x:K̸::Send("Ꝃ")
 :x:k̸::Send("ꝃ")
 :x:Ꝁ̸::Send("Ꝅ")
 :x:ꝁ̸::Send("ꝅ")
-:x:E̸::Send("Ɇ")
-:x:e̸::Send("ɇ")
+:x:L̸::Send("Ł")
+:x:l̸::Send("ł")
 :x:O̸::Send("Ø")
 :x:o̸::Send("ø")
 :x:Q̸::Send("Ꝙ")
@@ -1264,6 +1266,9 @@ return
 
 :x:⁅Å&⁆::Send("Å")
 :x:⁅K&⁆::Send("K")
+
+:x:⁅Đ&⁆::Send("Ꟈ")
+:x:⁅đ&⁆::Send("ꟈ")
 
 :x:⁅L·⁆::Send("Ŀ")
 :x:⁅l·⁆::Send("ŀ")
