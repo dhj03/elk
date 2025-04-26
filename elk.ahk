@@ -989,8 +989,6 @@ return
 :x:u̸::Send("ꞹ")
 :x:V̸::Send("Ꝟ")
 :x:v̸::Send("ꝟ")
-:x:Ꝛ̸::Send("Ꝝ")
-:x:ꝛ̸::Send("ꝝ")
 
 :x:Ǻ::Send("Ǻ")
 :x:ǻ::Send("ǻ")
@@ -1267,8 +1265,6 @@ return
 :x:⁅Å&⁆::Send("Å")
 :x:⁅K&⁆::Send("K")
 
-:x:⁅a^-)⁆::Send("ẚ")
-
 :x:⁅L·⁆::Send("Ŀ")
 :x:⁅l·⁆::Send("ŀ")
 :x:⁅O·⁆::Send("ʘ")
@@ -1537,6 +1533,8 @@ return
 :x:⁅``q⁆::Send("ƣ")
 :x:⁅``R⁆::Send("Ꝛ")
 :x:⁅``r⁆::Send("ꝛ")
+:x:⁅``RUM⁆::Send("Ꝝ")
+:x:⁅``rum⁆::Send("ꝝ")
 :x:⁅``s⁆::Send("ſ")
 :x:⁅``ts⁆::Send("ƾ")
 :x:⁅``U⁆::Send("Ʊ")
@@ -2513,3 +2511,7 @@ return
 :x:⁅0/00⁆::Send("‰")
 :x:⁅0/000⁆::Send("‱")
 :x:⁅/⁆::Send("⁄")
+
+#InputLevel 0
+
+:x:a͗::Send("ẚ")
