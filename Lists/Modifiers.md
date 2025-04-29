@@ -15,7 +15,7 @@
 | (Space) | Fullwidth | ⁅ A⁆ | Ａ |
 | **=** | Visual Equivalent | ⁅='⁆ | ′ |
 | **~** | Modifier | ⁅~'⁆ | ʹ |
-| **%** | Small Modifier | ⁅%T⁆ | ˕ |
+| **%** | Centred Modifier | ⁅%T⁆ | ˕ |
 | **$** | Currency | ⁅$E⁆ | € |
 
 ### Appended Modifiers

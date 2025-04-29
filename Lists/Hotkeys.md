@@ -14,11 +14,11 @@
 | **I** | **I**nverted Breve | ◌̑ | ◌̯ |
 | **J** | Palatal Hook / Retroflex Hook | ◌̡ | ◌̢ | Palatal Hook looks like J |
 | **K** | Overline / Low Line | ◌̅ | ◌̲ | K is above M in QWERTY |
-| **L** | **L**ine | ◌̍ | ◌̩ |
+| **L** | Vertical **L**ine | ◌̍ | ◌̩ |
 | **M** | **M**acron | ◌̄ | ◌̱ |
 | **N** | Tilde | ◌̃ | ◌̰ | Tilde looks like N |
 | **O** | **O**gonek | ◌̨ | ◌᷎ | Ogonek Above isn't well-supported |
-| **P** | Double Line | ◌̎ | ◌͈ | P is above L in QWERTY |
+| **P** | Double Vertical Line | ◌̎ | ◌͈ | P is above L in QWERTY |
 | **Q** | Double Acute | ◌̋ | | Q is above A in QWERTY |
 | **R** | **R**ing | ◌̊ | ◌̥ |
 | **S** | **S**troke | ◌̵ | ◌̶ |
