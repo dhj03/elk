@@ -1,6 +1,5 @@
 # The Extended Latin Keyboard (ELK)
-
-The ELK is an AutoHotKey (AHK) script that is able to type every Latin character, every diacritic, and every possible combination of them whether pre-composed or not. It can type characters used in Latin-based scripts ranging from German to Vietnamese, phonetic scripts from the IPA to Teuthonista, and everything in between. It can even type Zalgo text!
+The ELK is an AutoHotKey (AHK) script that can type every Latin character, every diacritic, and every possible combination of them, precomposed or otherwise. This includes characters in languages ranging from French to Vietnamese, phonetic scripts such as the IPA, and even Zalgo text (ļ̨̤̮̽̎i̗̬̰̊̏̄ķ̱͈̈̑̇ę̦̩̌̋́ ṭ͓̑̃̀ẖ̨̛͓̰̑̑̉į̤̗̎̆̑s̨̧̨̛̥̩̲̆̑̉)!
 
 This script supports all characters in the following Unicode blocks:
 * [Latin-1 Supplement](https://en.wikipedia.org/wiki/Latin-1_Supplement) | [Latin Extended Additional](https://en.wikipedia.org/wiki/Latin_Extended_Additional)
@@ -9,49 +8,63 @@ This script supports all characters in the following Unicode blocks:
 * [Superscripts and Subscripts](https://en.wikipedia.org/wiki/Superscripts_and_Subscripts) | [Spacing Modifier Letters](https://en.wikipedia.org/wiki/Spacing_Modifier_Letters) | [Modifier Tone Letters](https://en.wikipedia.org/wiki/Modifier_Tone_Letters)
 * [Combining Diacritical Marks](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks) | [Combining Diacritical Marks Extended](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks_Extended) | [Combining Diacritical Marks Supplement](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks_Supplement)
 
-It also supports some characters in other blocks also used in the IPA.
+It also supports IPA characters in other blocks not mentioned above.
 
 ## Installation
-* Install [AutoHotKey](https://www.autohotkey.com/) at version 2.0 or newer.
-* Place the `.ahk` file (the script) in your start-up folder.
+* Install [AutoHotKey](https://www.autohotkey.com/) version 2.0 or newer.
+* Place `elk.ahk` (the script) in your start-up folder.
 * Run the script.
 
 The script should now automatically run every time your machine boots.
 
 ## Usage
-All characters in this script are typed with hotkeys and hotstrings involving `RAlt` (the right `Alt` key) which on some keyboards is shown as `AltGr`. Please note that this script will override the original functions of this key, and that hotstrings are only able to function when every component character has been typed consecutively and therefore registered by AHK.
+For those who don't know, a hotkey is a combination of keys pressed together (such as `Ctrl` + `V`), while a hotstring is a series of characters that changes after being typed (such as 'omw' turning into 'On my way!').
 
-### Hotkeys
-Hotkeys are composed of `RAlt`, optionally `LAlt`, and a key. They type the most common diacritics and a select few common characters, and are the easiest to type.
+This script works by converting hotkeys and hotstrings into diacritics and other special characters. All of them are typed with `RAlt` (the right `Alt` key, also known as `AltGr`), so this script (probably) won't affect your typing workflow. That being said, it will override how `RAlt` normally behaves.
 
-Diacritics are typed in the form of combining characters, and can be appended to base letters to form new letters. The key of a diacritic may depend on its shape, name, or relative position to the key of a related diacritic on the QWERTY layout. For instance, `RAlt` + `U` yields a  breve, `RAlt` + `A` yields an acute, and `RAlt` + `Q` yields a double acute as `Q` is above `A`.
+Note that AHK hotstrings are only recognised when typed in one go, so if you switch tabs or move your text cursor, the hotstring won't be typed correctly.
 
-The `LAlt` key is used similarly to how the `Shift` key is used normally, usually causing the diacritic to be placed below the preceding letter instead of above it, or occasionally vice-versa. For instance, `RAlt` + `LAlt` + `A` yields an acute below. The `Shift` key is not used in any hotkeys as `Alt` + `Shift` triggers a keyboard switch on Windows.
+### Diacritics and Hotkeys
+Most diacritics are typed with a hotkey of `RAlt` and a letter, such as `RAlt` + `A` which gives the acute accent (◌́).
 
-A number of non-diacritics may also be typed with hotkeys, such as the interpunct with `RAlt` + `.` or the zero-width space with `RAlt` + ` `.
+The `LAlt` key is added to give a variant, such as `RAlt` + `LAlt` + `A` which gives the acute accent below (◌̗).
 
-A list of all hotkeys can be found [here](Lists/Hotkeys.md).
+Diacritics are combining characters added after letters, so 'á' is typed with 'a' followed by `RAlt` + `A`.
 
-### Hotstrings
+Hotkeys usually type diacritics, but a few hotkeys type special characters, such as `RAlt` + `.` which gives the interpunct (·).
 
-Thanks to AHK's hotstrings, letters with diacritics are automatically converted to their pre-composed form as specified in Unicode, if it exists. This may be prevented by typing `RAlt` + `;` (before the hotstring is complete), which resets the hotstring register.
+You can find a list of all hotkeys [here](Lists/Hotkeys.md). Not all diacritics are typed with hotkeys; some are typed with hotstrings which are explained below.
 
-All other characters are typed using the hotstring brackets `⁅` and `⁆`, typed with `RAlt` + `[` and `RAlt` + `]` respectively, in the form `⁅hotstring⁆`.
+### Precomposed Characters
+While Unicode allows letters to be followed by diacritics, most letters with diacritics are actually encoded separately as precomposed characters.
 
-Hotstrings using brackets are never layered; no hotstring will contain more than one of each bracket. In cases where a character involves other characters that are also typed with hotstring brackets, the inner brackets are omitted. This makes it easier to type hotstrings, but it also means that hotstrings using brackets cannot trigger other hotstrings using brackets.
+For instance, 'á' and 'á' are different; the first one is a single precomposed character while the second one is two separate characters. To see the difference, try copying them and pressing backspace after each letter.
 
-When a combining diacritic is used, a space is added to prevent automatic pre-composition. When a modifier (described below) does not apply to every part of the hotstring, spaces are also used to separate each part.
+There are also extreme examples such as 'ậ', 'ậ', 'ậ', 'ậ', and 'ậ' which all appear identically despite being encoded differently. Due to this concern and legacy reasons, Unicode recommends using precomposed characters wherever possible.
+
+As such, this script automatically precomposes letters with diacritics by using hotstrings. As mentioned in the Usage section though, hotstrings only work when typed in one go.
+
+You can disable precomposition for a letter by using the hotkey `RAlt` + `;` after typing it.
+
+### Other Characters and Hotstrings
+All other characters are typed using the hotstring brackets `⁅` (from `RAlt` + `[`) and `⁆` (from `RAlt` + `]`), in the form of `⁅hotstring⁆`.
+
+For instance, `⁅ae⁆` gives 'æ', `⁅dh⁆` gives 'ð', and `⁅sh⁆` gives 'ʃ'.
+
+Since there are thousands of hotstring combinations, no separate documentation has been written for them.
+
+You can find a list of all hotstrings in the [script](elk.ahk), which is fairly self-explanatory.
 
 ### Modifiers
-Modifiers are used in hotstrings to represent a kind of visual transformation, most frequently appearing in phonetic characters. Most modifiers are either only prepended or only appended to the character being modified, but in some cases either may apply with different effects depending on position.
+Modifiers are used in hotstrings to represent a kind of visual transformation. They can be prepended or appended, with different effects in each case.
 
-For instance, the small modifier `-` is prepended (e.g. `⁅-L⁆` -> `ʟ`) while the high stroke modifier `-` is appended (e.g. `⁅L-⁆` -> `Ꝉ`).
+For instance, '-' can represent the small modifier which is prepended (e.g. `⁅-L⁆` -> 'ʟ'), or the high stroke modifier which is appended (e.g. `⁅L-⁆` -> 'Ꝉ').
 
-Modifiers may be escaped for their character values with a backtick, but in practice this has not been necessary yet.
-
-A list of all modifiers can be found [here](Lists/Modifiers.md).
+You can find a list of all modifiers [here](Lists/Modifiers.md).
 
 ### Namespaces
-Namespaces are used to categorise characters that cannot be described with modifiers alone, and often use modifiers differently. Their syntax is `⁅namespace:hotstring⁆`, such as in `⁅rn:X⁆` which yields `Ⅹ` (the Roman numeral for 10).
+Namespaces are used to categorise characters that cannot be described with modifiers alone, and may even use modifiers differently.
 
-A list of all namespaces can be found [here](Lists/Namespaces.md).
+Their syntax is `⁅namespace:hotstring⁆`, such as `⁅rn:X⁆` which gives `Ⅹ` (the Roman numeral for 10).
+
+You can find list of all namespaces [here](Lists/Namespaces.md).
