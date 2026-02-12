@@ -11,14 +11,16 @@ This script supports all characters in the following Unicode blocks:
 It also supports IPA characters in other blocks not mentioned above.
 
 ## Installation
-* Install [AutoHotKey](https://www.autohotkey.com/) version 2.0 or newer.
+Note: AutoHotKey v2.0 only supports Windows 7 or newer.
+
+* Install [AutoHotKey](https://www.autohotkey.com/) v2.0 or newer.
 * Place `elk.ahk` (the script) in your start-up folder.
 * Run the script.
 
-The script should now automatically run every time your machine boots.
+The script should now automatically run every time your machine starts up.
 
 ## Usage
-For those who don't know, a hotkey is a combination of keys pressed together (such as `Ctrl` + `V`), while a hotstring is a series of characters that changes after being typed (such as 'omw' turning into 'On my way!').
+A hotkey is a combination of keys pressed together (such as `Ctrl` + `V`), and a hotstring is a series of characters that changes after being typed (such as 'omw' turning into 'On my way!').
 
 This script works by converting hotkeys and hotstrings into diacritics and other special characters. All of them are typed with `RAlt` (the right `Alt` key, also known as `AltGr`), so this script (probably) won't affect your typing workflow. That being said, it will override how `RAlt` normally behaves.
 
@@ -67,4 +69,4 @@ Namespaces are used to categorise characters that cannot be described with modif
 
 Their syntax is `⁅namespace:hotstring⁆`, such as `⁅rn:X⁆` which gives `Ⅹ` (the Roman numeral for 10).
 
-You can find list of all namespaces [here](Lists/Namespaces.md).
+You can find a list of all namespaces [here](Lists/Namespaces.md).
