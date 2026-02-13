@@ -1,430 +1,69 @@
 #Requires AutoHotkey >=2.0
 
+A_MenuMaskKey := "vkE8"
+InstallKeybdHook
 SendMode("Event")
+SetKeyDelay(0)
 SetWorkingDir(A_ScriptDir)
 #SingleInstance force
 #HotString c * ?
+#UseHook true
 
 #InputLevel 2
 
-RAlt::
-{
-global
-return
-}
+*~RAlt::Send("{Blind}{vkE8}")
 
->!;::
-{
-global
-    KeyWait("RAlt")
-    Hotstring("Reset")
-return
-}
+>!;::Hotstring("Reset")
+>!Space::Send("​")
+>!.::Send("·")
+>![::Send("⁅")
+>!]::Send("⁆")
 
->!Space::
-{
-global
-    KeyWait("RAlt")
-    Send("​")
-return
-}
+>!A::Send("́")
+>!Q::Send("̋")
+>!G::Send("̀")
+>!T::Send("̏")
+>!F::Send("̂")
+>!V::Send("̌")
+>!S::Send("̵")
+>!W::Send("̷")
+>!M::Send("̄")
+>!K::Send("̅")
+>!U::Send("̆")
+>!I::Send("̑")
+>!E::Send("̈")
+>!D::Send("̇")
+>!R::Send("̊")
+>!N::Send("̃")
+>!O::Send("̨")
+>!Z::Send("̧")
+>!C::Send("̦")
+>!X::Send("̽")
+>!L::Send("̍")
+>!P::Send("̎")
+>!J::Send("̡")
 
->!A::
-{
-global
-    KeyWait("RAlt")
-    Send("́")
-return
-}
-
->!<!A::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̗")
-return
-}
-
->!Q::
-{
-global
-    KeyWait("RAlt")
-    Send("̋")
-return
-}
-
->!G::
-{
-global
-    KeyWait("RAlt")
-    Send("̀")
-return
-}
-
->!<!G::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̖")
-return
-}
-
->!T::
-{
-global
-    KeyWait("RAlt")
-    Send("̏")
-return
-}
-
->!F::
-{
-global
-    KeyWait("RAlt")
-    Send("̂")
-return
-}
-
->!<!F::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̭")
-return
-}
-
->!V::
-{
-global
-    KeyWait("RAlt")
-    Send("̌")
-return
-}
-
->!<!V::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̬")
-return
-}
-
->!S::
-{
-global
-    KeyWait("RAlt")
-    Send("̵")
-return
-}
-
->!<!S::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̶")
-return
-}
-
->!W::
-{
-global
-    KeyWait("RAlt")
-    Send("̷")
-return
-}
-
->!<!W::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̸")
-return
-}
-
->!M::
-{
-global
-    KeyWait("RAlt")
-    Send("̄")
-return
-}
-
->!<!M::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̱")
-return
-}
-
->!K::
-{
-global
-    KeyWait("RAlt")
-    Send("̅")
-return
-}
-
->!<!K::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̲")
-return
-}
-
->!U::
-{
-global
-    KeyWait("RAlt")
-    Send("̆")
-return
-}
-
->!<!U::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̮")
-return
-}
-
->!I::
-{
-global
-    KeyWait("RAlt")
-    Send("̑")
-return
-}
-
->!<!I::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̯")
-return
-}
-
->!E::
-{
-global
-    KeyWait("RAlt")
-    Send("̈")
-return
-}
-
->!<!E::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̤")
-return
-}
-
->!D::
-{
-global
-    KeyWait("RAlt")
-    Send("̇")
-return
-}
-
->!<!D::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̣")
-return
-}
-
->!R::
-{
-global
-    KeyWait("RAlt")
-    Send("̊")
-return
-}
-
->!<!R::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̥")
-return
-}
-
->!N::
-{
-global
-    KeyWait("RAlt")
-    Send("̃")
-return
-}
-
->!<!N::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̰")
-return
-}
-
->!O::
-{
-global
-    KeyWait("RAlt")
-    Send("̨")
-return
-}
-
->!<!O::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("᷎")
-return
-}
-
->!Z::
-{
-global
-    KeyWait("RAlt")
-    Send("̧")
-return
-}
-
->!<!Z::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̉")
-return
-}
-
->!C::
-{
-global
-    KeyWait("RAlt")
-    Send("̦")
-return
-}
-
->!<!C::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̛")
-return
-}
-
->!X::
-{
-global
-    KeyWait("RAlt")
-    Send("̽")
-return
-}
-
->!<!X::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("͓")
-return
-}
-
->!L::
-{
-global
-    KeyWait("RAlt")
-    Send("̍")
-return
-}
-
->!<!L::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̩")
-return
-}
-
->!P::
-{
-global
-    KeyWait("RAlt")
-    Send("̎")
-return
-}
-
->!<!P::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("͈")
-return
-}
-
->!J::
-{
-global
-    KeyWait("RAlt")
-    Send("̡")
-return
-}
-
->!<!J::
-{
-global
-    KeyWait("RAlt")
-    KeyWait("LAlt")
-    Send("̢")
-return
-}
-
->!.::
-{
-global
-    KeyWait("RAlt")
-    Send("·")
-return
-}
-
->![::
-{
-global
-    KeyWait("RAlt")
-    Send("⁅")
-return
-}
-
->!]::
-{
-global
-    KeyWait("RAlt")
-    Send("⁆")
-return
-}
+<!>!A::Send("̗")
+<!>!G::Send("̖")
+<!>!F::Send("̭")
+<!>!V::Send("̬")
+<!>!S::Send("̶")
+<!>!W::Send("̸")
+<!>!M::Send("̱")
+<!>!K::Send("̲")
+<!>!U::Send("̮")
+<!>!I::Send("̯")
+<!>!E::Send("̤")
+<!>!D::Send("̣")
+<!>!R::Send("̥")
+<!>!N::Send("̰")
+<!>!O::Send("᷎")
+<!>!Z::Send("̉")
+<!>!C::Send("̛")
+<!>!X::Send("͓")
+<!>!L::Send("̩")
+<!>!P::Send("͈")
+<!>!J::Send("̢")
 
 #InputLevel 1
 
@@ -2520,3 +2159,4 @@ return
 #InputLevel 0
 
 :x:a͗::Send("ẚ")
+
