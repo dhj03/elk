@@ -1,5 +1,5 @@
 # The Extended Latin Keyboard (ELK)
-The ELK is an AutoHotKey (AHK) script that can type every Latin character, every diacritic, and every possible combination of them, precomposed or otherwise. This includes characters in languages ranging from French to Vietnamese, phonetic scripts such as the IPA, and even Zalgo text (ļ̨̤̮̽̎i̗̬̰̊̏̄ķ̱͈̈̑̇ę̦̩̌̋́ ṭ͓̑̃̀ẖ̨̛͓̰̑̑̉į̤̗̎̆̑s̨̧̨̛̥̩̲̆̑̉)!
+The ELK is an AutoHotkey (AHK) script that can type every Latin character, every diacritic, and every possible combination of them, precomposed or otherwise. This includes characters in languages ranging from French to Vietnamese, phonetic scripts such as the IPA, and even Zalgo text (ļ̨̤̮̽̎i̗̬̰̊̏̄ķ̱͈̈̑̇ę̦̩̌̋́ ṭ͓̑̃̀ẖ̨̛͓̰̑̑̉į̤̗̎̆̑s̨̧̨̛̥̩̲̆̑̉)!
 
 This script supports all characters in the following Unicode blocks:
 * [Latin-1 Supplement](https://en.wikipedia.org/wiki/Latin-1_Supplement) | [Latin Extended Additional](https://en.wikipedia.org/wiki/Latin_Extended_Additional)
@@ -11,9 +11,9 @@ This script supports all characters in the following Unicode blocks:
 It also supports IPA characters in other blocks not mentioned above.
 
 ## Installation
-Note: AutoHotKey v2.0 only supports Windows 7 or newer.
+Note: AutoHotkey v2.0 only supports Windows 7 or newer.
 
-* Install [AutoHotKey](https://www.autohotkey.com/) v2.0 or newer.
+* Install [AutoHotkey](https://www.autohotkey.com/) v2.0 or newer.
 * Place `elk.ahk` (the script) in your start-up folder.
 * Run the script.
 
