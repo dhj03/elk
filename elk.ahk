@@ -9,15 +9,24 @@ SetWorkingDir(A_ScriptDir)
 #HotString c * ?
 #UseHook true
 
+#InputLevel 3
+
+*<^RAlt::Send("{Blind}{LCtrl Up}{RAlt DownR}")
+*<^RAlt Up::Send("{Blind}{LCtrl Up}{RAlt Up}")
+
+#HotIf GetKeyState("RAlt", "P")
+    *LCtrl::return
+#HotIf
+
 #InputLevel 2
 
 ~*RAlt::Send("{Blind}{vkE8}")
 
->!;::Hotstring("Reset")
 >!Space::Send("​")
->!.::Send("·")
 >![::Send("⁅")
 >!]::Send("⁆")
+>!.::Send("·")
+>!;::Hotstring("Reset")
 
 >!B::return
 >!H::return
@@ -2163,5 +2172,6 @@ SetWorkingDir(A_ScriptDir)
 #InputLevel 0
 
 :x:a͗::Send("ẚ")
+
 
 
