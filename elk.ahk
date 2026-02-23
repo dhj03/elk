@@ -9,74 +9,119 @@ SetWorkingDir(A_ScriptDir)
 #HotString c * ?
 #UseHook true
 
-#InputLevel 3
-
-*<^RAlt::Send("{Blind}{LCtrl Up}{RAlt DownR}")
-*<^RAlt Up::Send("{Blind}{LCtrl Up}{RAlt Up}")
-
-#HotIf GetKeyState("RAlt", "P")
-    *LCtrl::return
-#HotIf
-
 #InputLevel 2
 
-~*RAlt::Send("{Blind}{vkE8}")
+~RAlt::
+~<!RAlt::
+~>!LAlt::Send("{Blind}{vkE8}")
 
->!Space::Send("​")
->![::Send("⁅")
->!]::Send("⁆")
->!.::Send("·")
->!;::Hotstring("Reset")
+>!Space::
+<^>!Space::Send("​")
+>![::
+<^>![::Send("⁅")
+>!]::
+<^>!]::Send("⁆")
+>!.::
+<^>!.::Send("·")
+>!;::
+<^>!;::Hotstring("Reset")
 
->!B::return
->!H::return
->!Y::return
+>!B::
+<^>!B::return
+>!H::
+<^>!H::return
+>!Y::
+<^>!Y::return
 
->!A::Send("́")
->!Q::Send("̋")
->!G::Send("̀")
->!T::Send("̏")
->!F::Send("̂")
->!V::Send("̌")
->!S::Send("̵")
->!W::Send("̷")
->!M::Send("̄")
->!K::Send("̅")
->!U::Send("̆")
->!I::Send("̑")
->!E::Send("̈")
->!D::Send("̇")
->!R::Send("̊")
->!N::Send("̃")
->!O::Send("̨")
->!Z::Send("̧")
->!C::Send("̦")
->!X::Send("̽")
->!L::Send("̍")
->!P::Send("̎")
->!J::Send("̡")
+>!A::
+<^>!A::Send("́")
+>!Q::
+<^>!Q::Send("̋")
+>!G::
+<^>!G::Send("̀")
+>!T::
+<^>!T::Send("̏")
+>!F::
+<^>!F::Send("̂")
+>!V::
+<^>!V::Send("̌")
+>!S::
+<^>!S::Send("̵")
+>!W::
+<^>!W::Send("̷")
+>!M::
+<^>!M::Send("̄")
+>!K::
+<^>!K::Send("̅")
+>!U::
+<^>!U::Send("̆")
+>!I::
+<^>!I::Send("̑")
+>!E::
+<^>!E::Send("̈")
+>!D::
+<^>!D::Send("̇")
+>!R::
+<^>!R::Send("̊")
+>!N::
+<^>!N::Send("̃")
+>!O::
+<^>!O::Send("̨")
+>!Z::
+<^>!Z::Send("̧")
+>!C::
+<^>!C::Send("̦")
+>!X::
+<^>!X::Send("̽")
+>!L::
+<^>!L::Send("̍")
+>!P::
+<^>!P::Send("̎")
+>!J::
+<^>!J::Send("̡")
 
-<!>!A::Send("̗")
-<!>!G::Send("̖")
-<!>!F::Send("̭")
-<!>!V::Send("̬")
-<!>!S::Send("̶")
-<!>!W::Send("̸")
-<!>!M::Send("̱")
-<!>!K::Send("̲")
-<!>!U::Send("̮")
-<!>!I::Send("̯")
-<!>!E::Send("̤")
-<!>!D::Send("̣")
-<!>!R::Send("̥")
-<!>!N::Send("̰")
-<!>!O::Send("᷎")
-<!>!Z::Send("̉")
-<!>!C::Send("̛")
-<!>!X::Send("͓")
-<!>!L::Send("̩")
-<!>!P::Send("͈")
-<!>!J::Send("̢")
+<!>!A::
+<^<!>!A::Send("̗")
+<!>!G::
+<^<!>!G::Send("̖")
+<!>!F::
+<^<!>!F::Send("̭")
+<!>!V::
+<^<!>!V::Send("̬")
+<!>!S::
+<^<!>!S::Send("̶")
+<!>!W::
+<^<!>!W::Send("̸")
+<!>!M::
+<^<!>!M::Send("̱")
+<!>!K::
+<^<!>!K::Send("̲")
+<!>!U::
+<^<!>!U::Send("̮")
+<!>!I::
+<^<!>!I::Send("̯")
+<!>!E::
+<^<!>!E::Send("̤")
+<!>!D::
+<^<!>!D::Send("̣")
+<!>!R::
+<^<!>!R::Send("̥")
+<!>!N::
+<^<!>!N::Send("̰")
+<!>!O::
+<^<!>!O::Send("᷎")
+<!>!Z::
+<^<!>!Z::Send("̉")
+<!>!C::
+<^<!>!C::Send("̛")
+<!>!X::
+<^<!>!X::Send("͓")
+<!>!L::
+<^<!>!L::Send("̩")
+<!>!P::
+<^<!>!P::Send("͈")
+<!>!J::
+<^<!>!J::Send("̢")
 
 #InputLevel 1
 
@@ -2172,6 +2217,7 @@ SetWorkingDir(A_ScriptDir)
 #InputLevel 0
 
 :x:a͗::Send("ẚ")
+
 
 
 
