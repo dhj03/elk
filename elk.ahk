@@ -2217,7 +2217,3 @@ SetWorkingDir(A_ScriptDir)
 #InputLevel 0
 
 :x:a͗::Send("ẚ")
-
-
-
-
