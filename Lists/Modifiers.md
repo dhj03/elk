@@ -9,13 +9,13 @@
 | **-** | Small | ⁅-H⁆ | ʜ |
 | **^** | Superscript | ⁅^h⁆ | ʰ |
 | **_** | Subscript | ⁅_h⁆ | ₕ |
-| **\*** | Combining Above | ⁅*h⁆ | ◌ͪ |
-| **·** | Overlay | ⁅·~⁆ | ◌̴ |
-| **.** | Combining Below | ⁅.T⁆ | ◌̞ |
+| **\*** | Diacritic Above | ⁅*h⁆ | ◌ͪ |
+| **·** | Overlay Diacritic | ⁅·~⁆ | ◌̴ |
+| **.** | Diacritic Below | ⁅.T⁆ | ◌̞ |
 | (Space) | Fullwidth | ⁅ A⁆ | Ａ |
 | **=** | Visual Equivalent | ⁅='⁆ | ′ |
 | **~** | Modifier | ⁅~'⁆ | ʹ |
-| **%** | Centred Modifier | ⁅%T⁆ | ˕ |
+| **%** | Centered  Modifier | ⁅%T⁆ | ˕ |
 | **$** | Currency | ⁅$E⁆ | € |
 
 ### Appended Modifiers
