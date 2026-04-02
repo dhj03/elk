@@ -9,9 +9,11 @@ SetWorkingDir(A_ScriptDir)
 #HotString c * ?
 #UseHook true
 
-/***********
- * HOTKEYS *
- ***********/
+/* 
+  ┌─────────┐
+  │ HOTKEYS │
+  └─────────┘
+*/
 
 #InputLevel 2
 
@@ -132,9 +134,11 @@ SetWorkingDir(A_ScriptDir)
 <!>!J::
 <^<!>!J::Send("̢")
 
-/***********************
- * DIACRITIC COMBINERS *
- ***********************/
+/*
+  ┌─────────────────────┐
+  │ DIACRITIC COMBINERS │
+  └─────────────────────┘
+*/
 
 #InputLevel 1
 
@@ -901,9 +905,11 @@ SetWorkingDir(A_ScriptDir)
 :x:Ự::Send("Ự")
 :x:ự::Send("ự")
 
-/**************
- * HOTSTRINGS *
- **************/
+/*
+  ┌────────────┐
+  │ HOTSTRINGS │
+  └────────────┘
+*/
 
 ; Ligatures & Miscellaneous Letters
 :x:⁅AA⁆::Send("Ꜳ")
@@ -2313,9 +2319,11 @@ SetWorkingDir(A_ScriptDir)
 :x:⁅0/000⁆::Send("‱")
 :x:⁅/⁆::Send("⁄")
 
-/**********************************
- * ADDITIONAL DIACRITIC COMBINERS *
- **********************************/
+/*
+  ┌────────────────────────────────┐
+  │ ADDITIONAL DIACRITIC COMBINERS │
+  └────────────────────────────────┘
+*/
 
 #InputLevel 0
 
